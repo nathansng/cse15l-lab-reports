@@ -12,6 +12,6 @@ Check in later for lab reports.
 
 --- 
 
-> Check out my GitHub page! [Link]https://github.com/nathansng
+> Check out my GitHub page! https://github.com/nathansng
 
 ![Image](https://evcra.ucsd.edu/_images/UCSD_Sign_r1.jpg)
