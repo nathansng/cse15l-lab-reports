@@ -11,3 +11,5 @@ This lab report is about how remote access works and what you can do with remote
 > The first step is to install VSCode. Below is a screenshot of opening VSCode.
 
 ![Downloaded VSCode](lab_report_1_install_vscode.png)
+
+<img src="lab_report_1_install_vscode.png" alt="drawing" width="2000"/>
