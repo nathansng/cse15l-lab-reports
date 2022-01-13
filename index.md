@@ -1,3 +1,5 @@
 Hello, world! 
 
-This repo is for cse 15L lab reports. 
+This website is for Nathan's CSE 15L lab reports. 
+
+Check in later for lab reports. 
