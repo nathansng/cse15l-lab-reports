@@ -12,5 +12,6 @@ Check in later for lab reports.
 
 --- 
 
-> Link to other file: [Link]https://nathansng.github.io/cse15l-lab-reports/otherFile.html 
+> Check out my GitHub page! [Link]https://github.com/nathansng
 
+![Image](https://evcra.ucsd.edu/_images/UCSD_Sign_r1.jpg)
