@@ -14,7 +14,7 @@ Check in later for lab reports.
 
 > Deadline: *5pm on January 14, 2022*
 
-- [Lab Report 1](https://nathansng.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+- [Lab Report 1](https://nathansng.github.io/cse15l-lab-reports/lab_report_1/lab-report-1-week-2.html)
 
 `Here's some example inline code related to lab report 1.`
 
