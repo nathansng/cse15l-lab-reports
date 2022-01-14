@@ -44,7 +44,7 @@ Once I successfully logged in, I had access to the remote connection and had a s
 ![Successful Login](lab_report_1_remote_connecting.png)
 
 ## Step 4: Running Commands Remotely
-
+---
 In my remote connection, I practiced running some terminal commands. A few of the commands I practices are listed below, including their outputs I saw in my terminal.
 
 `pwd` - Returns your current directory path
@@ -69,7 +69,6 @@ I noticed that there were similar and different behaviors that occured based on 
 
 ## Step 5: Moving Files to Remote Connection
 ---
-
 Next, I copied a file from my local computer to the remote server using the `scp` command. To return back to my local computer, I typed in `logout` (or `exit`) to terminate my connection.
 
 Back in my computer, I made a new Java file `WhereAmI.java` that contained code for printing out a system's property attributes. The code was as folows:
@@ -102,7 +101,7 @@ It prompted me for the same password as my login, and showed me a progress bar o
 Afterwards, I logged back into the server and compiled and ran the `WhereAmI.java` file on the server instead. This time, the program returned attributes about the server instead of my computer because of where I ran the file. An example of the file being copied onto the server and the code running is shown in the screenshot above.
 
 ## Step 6: SSH Keys
-
+---
 To make my time using the remote connection easier, I set up SSH keys that would allow me to immediately login to the remote connection without having to input a password each time. This would also help when copying files onto the server, as that process also asked for my password each time I used the command.
 
 To set up an ssh key, I entered the following command into my terminal in VSCode.
@@ -128,7 +127,7 @@ Once I copied over the public key onto the server, I logged back out and logged 
 ![Using SSH Keys](lab_report_1_setting_ssh_key.png)
 
 ## Step 7: Optimizing Remote Running
-
+---
 After using the SSH key to make logging in faster, I tried different strategies to make using a remote server easier and faster. The first command I tried was using double quotes to run commands on the server from my local computer.
 
 ```
@@ -160,5 +159,5 @@ The following screenshot is the result of the command:
 ![Optimized Process](lab_report_1_optimize_running_2.png)
 
 ## Wrapup
-
+---
 In this report, I went over the process of setting up and using a remote connection, specifically the ieng6 servers at UC San Diego. This process required downloading VSCode, finding my course specific account information, and resetting my password to activate the account. With the terminal in VSCode, I logged into the ieng6 server and copied over different files to compile and run on the server side. Then I tested out some terminal commands on my remote connection. Finally, I optimized my remote connection work efficiency by using SSH keys to avoid constantly entering my password and created a one line command that copied, compiled, and ran a file on the server side from my computer side.
