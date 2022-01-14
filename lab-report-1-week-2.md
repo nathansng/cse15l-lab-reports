@@ -71,7 +71,7 @@ I noticed that there were similar and different behaviors that occured based on 
 ---
 Next, I copied a file from my local computer to the remote server using the `scp` command. To return back to my local computer, I typed in `logout` (or `exit`) to terminate my connection.
 
-Back in my computer, I made a new Java file `WhereAmI.java` that contained code for printing out a system's property attributes. The code was as folows:
+Back in my computer, I made a new Java file `WhereAmI.java` that contained code for printing out a system's property attributes. The code I used is shown below.
 
 ```
 class WhereAmI {
