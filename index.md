@@ -59,6 +59,6 @@ Here's multiline code example related to lab report 2.
 
 ---
 
-> Check out my GitHub page! https://github.com/nathansng
+> Check out my GitHub page! [https://github.com/nathansng](https://github.com/nathansng)
 
 ![Image](https://evcra.ucsd.edu/_images/UCSD_Sign_r1.jpg)
