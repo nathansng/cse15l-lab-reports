@@ -165,5 +165,5 @@ For the third case, I observed that any text following the parenthesis ended up 
 
 
 ## Wrap Up
-
+---
 In this report, I went through the MarkdownParse file and fixed the issues I encountered, whether that was unexpected outputs or errors in the code. While the given function worked on certain test cases, it did not perform as expected for many other test cases, as we saw in the three test cases I fixed. The first test case came from extracting file paths in markdown images, which had a similar format as markdown links. The second test case came from extracting text when using brackets and parenthesis normally in text and not as links. The final test case came from an out of memory error caused by test following the closing parenthesis, or whenver the closing parenthesis was not the last character in the file. For each of these test cases, I created failure-inducing inputs, such as the test markdown files, to reproduce the symptoms. Then I checked the symptoms to see what might be causing the unexpected outcome and the bug in the code. Finally, I looked through the code to find the bug and fixed the issue by adding code that addressed the problem.
