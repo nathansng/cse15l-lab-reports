@@ -8,7 +8,7 @@ The code I use in this report is MarkdownParse, which is a Java class containing
 ucsd-cse15l-w22's GitHub account. The link to the markdown parse repo can be found here: [markdown-parse repo](https://github.com/ucsd-cse15l-w22/markdown-parse).
 
 
-## Normal Output
+## Expected Behavior
 ---
 The MarkdownParse function is expected to parse a markdown file and extract the url of any embedded links. The idea is to use the locations of the brackets, "[" and "]", and the locations of the following parenthesis, "(" and ")", to find where links might be located. In markdown, the text users would see on the webpage would be contained in the brackets, whereas the actual urls the links lead to are contained within the parenthesis.
 
@@ -99,7 +99,30 @@ In our first case, the symptom we observed was an incorrect output because it in
 
 ## Case 2: Non-Link Brackets and Parenthesis
 ---
+The second test case that breaks our function is when brackets and parenthesis are used normally as text in the markdown file. Any text that contains an open bracket followed by a closing bracket, which is then followed by opening parenthesis and then closing parenthesis, will have the text between the parenthesis extracted as a "link". This was not the expected output of the function because we want the function to work on markdown files that have brackets and parenthesis that aren't markdown links.
 
+Below is the markdown file that was used as a test that contained brackets and parenthesis that were not intended to be used as links. [Link to markdown file](https://github.com/nathansng/markdown-parse/blob/main/test-file-3.md)
+
+```
+[enter some things in the brackets here] This is just some text
+(don't extract this!)
+```
+
+After adding code that fixed the bug in the first case, I ran the function on the new test file and got the following result.
+
+![Unexpected output 2](lab_report_2_testfile_3_output.png)
+
+The output extracted the undesired text that was not a link. Any open and closed parenthesis that followed an open and closed bracket resulted in a failure inducing input and returned unintended outputs. This was a symptom of a bug that caused the unwanted results.
+
+Looking back at the code, I discovered that the bug was from the code taking the index of any open parenthesis that came after a closing bracket regardless of where it was in the markdown file. That meant that if I put brackets at the beginning of the file and parenthesis at the end of the file, the function would have considered that as a valid link. To prevent this from happening, I added a checker to ensure that the parenthesis immediately followed the brackets. This way, it prevents unintended text from being extracted because of brackets and parenthesis and limits the function to only extract text from markdown links. [Changes to avoid including random text](https://github.com/nathansng/markdown-parse/commit/271c467eef805dc849bc5de59d68e9041d7068e7#diff-c703a0ec03474d601c6bf846740b293e0538bccf38d5f677a302457479e9c652)
+
+![Code Change 2](lab_report_2_code_change_2.png)
+
+After adding the fix to the bug, I ran the function on the test file again and got the expected output of another empty list.
+
+![Expected Output 2](lab_report_2_testfile_3_output_2.png)
+
+In the second case of failure inducing input, I observed that brackets followed by parenthesis in the markdown file resulted in including undesired output. The failure-inducing input was any text that used open and close brackets that were followed by open and close parenthesis, regardless of the text in between them. While these were not meant to be markdown links, the function treated them as links and included the text in between the parenthesis in the output, which was the resulting symptom. The bug causing this symptom was no code checking if there was any text in between the brackets and the parenthesis. If there was text in between the brackets and parenthesis, then that meant the it wasn't a link. To fix the bug, I included a checker to ensure that the parenthesis came immediately after the brackets to avoid extracting unwanted text.
 
 ## Case 3: Text Beyond Links
 ---
