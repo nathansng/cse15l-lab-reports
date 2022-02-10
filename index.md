@@ -24,20 +24,19 @@ The first lab report goes through the steps to set up and use a remote connectio
 
 ### Lab Report 2
 
-> Deadline: 5pm @ January 28, 2022
+*Published January 28, 2022*
 
-*Link to Lab Report 2*: [https://nathansng.github.io/cse15l-lab-reports/lab-report-2-week-4.html](https://nathansng.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
+Link to Lab Report 2: [https://nathansng.github.io/cse15l-lab-reports/lab-report-2-week-4.html](https://nathansng.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
-```
-# Code Block Example
-Here's multiline code example related to lab report 2.
-```
+In the second lab report, I go through the debugging process of finding and fixing errors in a piece of code given failed input tests. The report includes the steps I took to find the symptoms based on failure inducing input, as well as searching and fixing the bug causing the symptom in the code. There are three different examples of unexpected or failing outputs based on different failure inducing inputs. I use the markdown-parse project as the code to debug and practice running JUnit tests on the function defined in the repository.
 
 <br>
 
-3. **Lab Report 3:** *Coming soon*
+### Lab Report 3
 
-> Deadline: TBD
+> Deadline: Friday, February 11, 2022 @ 5pm
+
+Link to Lab Report 3: [https://nathansng.github.io/cse15l-lab-reports/lab-report-3-week-6.html](https://nathansng.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
 <br>
 
