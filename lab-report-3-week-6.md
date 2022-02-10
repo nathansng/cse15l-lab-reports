@@ -20,7 +20,13 @@ The screenshot above is when I editted the config file with the lines above usin
 
 ## Part 2: Logging in to Remote Connection
 ---
-Now that I have the config file setup, I test out the easier method of logging into my remote connection. The screenshot below is an example of me logging into the remote connection using the nickname `ieng6` instead of the long username given to me by default.
+Now that I have the config file setup, I test out the easier method of logging into my remote connection. I used the following command to login. The name after ssh can be any name that you declare after Host in the config file.
+
+```
+ssh ieng6
+```
+
+The screenshot below is an example of me logging into the remote connection using the nickname `ieng6` instead of the long username given to me by default.
 
 ![SSH to remote connection](lab_report_3_ssh.png)
 
@@ -29,6 +35,10 @@ From the screenshot, I was able to login using just the nickname. This method of
 ## Part 3: Copying Files to Remote Connection
 ---
 After being able to login conveniently, I use this streamline to copy over a file to the remote connection.
+
+```
+scp file_name ieng6:~/
+```
 
 ![SCP to remote connection](lab_report_3_scp.png)
 
