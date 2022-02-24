@@ -24,6 +24,8 @@ The first lab report goes through the steps to set up and use a remote connectio
 
 ### Lab Report 2
 
+**Debugging Code**
+
 *Published January 28, 2022*
 
 Link to Lab Report 2: [https://nathansng.github.io/cse15l-lab-reports/lab-report-2-week-4.html](https://nathansng.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
@@ -34,15 +36,21 @@ In the second lab report, I go through the debugging process of finding and fixi
 
 ### Lab Report 3
 
-> Deadline: Friday, February 11, 2022 @ 5pm
+**Streamlining `ssh` Configuration**
+
+*Published February 11, 2022*
 
 Link to Lab Report 3: [https://nathansng.github.io/cse15l-lab-reports/lab-report-3-week-6.html](https://nathansng.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
 <br>
 
-4. **Lab Report 4:** *Coming soon*
+### Lab Report 4
 
-> Deadline: TBD
+**Testing Different Implementations of MarkdownParse**
+
+> Deadline: February 25, 2022 @ 5pm
+
+Link to Lab Report 4: [https://nathansng.github.io/cse15l-lab-reports/lab-report-4-week-8.html](https://nathansng.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
 <br>
 
