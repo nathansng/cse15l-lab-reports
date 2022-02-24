@@ -42,6 +42,8 @@ In the second lab report, I go through the debugging process of finding and fixi
 
 Link to Lab Report 3: [https://nathansng.github.io/cse15l-lab-reports/lab-report-3-week-6.html](https://nathansng.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
+For the third lab report, I go over the steps of streamlining the ssh process or whenever you login to an external server. It includes the steps you need to take to set up this shortcut and the things you can do with a streamlined ssh configuration.
+
 <br>
 
 ### Lab Report 4
