@@ -59,7 +59,9 @@ The first problem is on line 212 of the results files. Looking at line 212, the 
 
 From a markdown preview, there is only one valid link in this test case and the expected output should be:
 
-```[my_(url)]```
+```
+[my_(url)]
+```
 
 However, we get the following as the output from the two implementations, where my implementation returned an empty list and the other implementation extracted `url`.
 
