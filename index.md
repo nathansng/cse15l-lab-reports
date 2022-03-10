@@ -58,6 +58,8 @@ The fourth lab report compares my implementation of MarkdownParse with another u
 
 ### Lab Report 5
 
+**Comparing Implementations and Outputs of MarkdownParse**
+
 *Published March 11, 2022*
 
 Link to Lab Report 5: [https://nathansng.github.io/cse15l-lab-reports/lab-report-5-week-10.html](https://nathansng.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
