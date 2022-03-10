@@ -1,8 +1,6 @@
 # Nathan's CSE 15L Lab Reports
 
-This website is for Nathan's CSE 15L lab reports.
-
-Check in later for lab reports.
+Welcome to my lab report's page for CSE 15L! Below are the lab reports I created based off of the labs I completed in the CSE 15L course. Each lab report is linked to its own page and is attached with a summary of what the report covers. The lab reports cover the process of connecting to a remote connection and making that process easier, practicing debugging code, and running tests on multiple implementations using different methods.
 
 <br>
 
@@ -50,21 +48,23 @@ For the third lab report, I go over the steps of streamlining the ssh process or
 
 **Testing Different Implementations of MarkdownParse**
 
-> Deadline: February 25, 2022 @ 5pm
+*Published February 25, 2022*
 
 Link to Lab Report 4: [https://nathansng.github.io/cse15l-lab-reports/lab-report-4-week-8.html](https://nathansng.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
-<br>
-
-5. **Lab Report 5:** *Coming soon*
-
-> Deadline: TBD
+The fourth lab report compares my implementation of MarkdownParse with another user's implementation. MarkdownParse is meant to extract the links within markdown files and return a list of valid links. I compare the results of the two implementations against the expected results and explain how the program could be fixed to account for that specific test case.
 
 <br>
 
-## Future Updates:
+### Lab Report 5
 
-- More lab reports to be added
+*Published March 11, 2022*
+
+Link to Lab Report 5: [https://nathansng.github.io/cse15l-lab-reports/lab-report-5-week-10.html](https://nathansng.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+
+Lab report 5 is the last lab report of this series. In this lab report, I compare two different implementations of MarkdownParse again and their output on several hundred tests. Instead of using individual JUnit tests like the previous report, I use terminal commands to identify the differences in output and compare the two outputs with the expected results.
+
+<br>
 
 ---
 
